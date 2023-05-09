@@ -5,15 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="../css/style.css" />
     <title>La Russell</title>
+    <style>
+      .list-inline li a{
+        text-decoration: none;
+        color: black;
+        font-size: 2rem;
+      }
+    </style>
   </head>
   <body>
     
-    
+    <div class="container-fluid">
+      <div class="row justify-content-center">
+        <div class="col-6 col-md-4 col-xl-3">
+          <img id="something1" src="../assets/small-360-1.jpg" class="img-fluid p-5 mt-5" alt="image">
+        </div>
+        <div class="col-6 col-md-4 col-xl-3">
+          <img id="something2" src="../assets/small-360-1.jpg" class="img-fluid p-5 " alt="image">
+        </div>
+        <div class="col-6 col-md-4 col-xl-3">
+          <img id="something3" src="../assets/small-360-1.jpg" class="img-fluid p-5 mt-4" alt="image">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-6 col-md-4 col-xl-3">
+          <img id="something4" src="../assets/small-360-1.jpg" class="img-fluid p-5 mb-5" alt="image">
+        </div>
+        <div class="col-6 col-md-4 col-xl-3"></div>
+        <div class="col-6 col-md-4 col-xl-3">
+          <img id="something5" src="../assets/small-360-1.jpg" class="img-fluid p-5 mt-2" alt="image">
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <ul class="list-inline text-center">
+          <li class="list-inline-item"><a href="#something1">Item 1 |</a></li>
+          <li class="list-inline-item"><a href="#something2">Item 2 |</a></li>
+          <li class="list-inline-item"><a href="#something3">Item 3 |</a></li>
+          <li class="list-inline-item"><a href="#something4">Item 4 |</a></li>
+          <li class="list-inline-item"><a href="#something5">Item 5 |</a></li>
+        </ul>
+      </div>
+    </div>
     
     
     <script type="text/javascript" src="../js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="../js/jquery-scroll-swap.js"></script>
     <script type="text/javascript" src="../js/bootstrap.bundle.js"></script>
     <script type="text/javascript" src="../js/stickyfill.min.js"></script>
+    <script>
+    jQuery(document).ready(function($){
+      
+      $("a").on("mouseover", function(){
+        $("img").css("opacity", 0.5);
+        $($(this).attr("href")).css("opacity", 1);
+      });
+      $("a").on("mouseout", function(){
+        $("img").css("opacity", 1);
+      })
+      
+    })
+    </script>
   </body>
 </html>

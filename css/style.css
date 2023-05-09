@@ -1,13 +1,20 @@
 @import '../fonts/fonts.css';
 @import 'bootstrap.min.css';
 
+
+#mainheader{
+  font-family: Lato, sans-serif;
+  font-weight: 500;
+}
+
 html,body{
 	font-family: 'Crimson Text', serif;
 	font-size: 1.2rem;
     scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,h5,h6{
+
+h2,h3,h4,h5,h6{
 	font-family: Lato, sans-serif;
 }
 
@@ -18,6 +25,21 @@ h1,h2,h3,h4,h5,h6{
     display: table;
 }
 
+header[role="banner"]{
+  background-image: url(../assets/HERO-IMAGE.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.lyrics{
+  border-top: 1px solid black;
+  border-bottom:1px solid black;
+  padding:30px;
+  font-style: italic;
+  text-align: center;
+  line-height: 1rem;
+}
 
 /** Looping Background Video **/
 .looping-background-video{

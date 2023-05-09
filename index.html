@@ -48,10 +48,13 @@
     <meta property="og:image" content="">
     <meta property="og:description" content="">
 
+<!-- <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+ -->
 
   </head>
   <body>
-
 
     <!-- main banner -->
     <header role="banner" class="looping-background-video d-flex flex-column align-items-center justify-content-center">
@@ -72,37 +75,60 @@
       <ul class="list-group list-group-flush list-group-stylized mb-5">
         
         <li style="--background:url(./assets/emperss.jpg);" 
-            onclick="window.location='#test'" 
+            onclick="window.location='#empress'" 
             class="list-group-item px-sm-4 px-1">
             <p>The Empress Show</p>
             <small>Vallejo History</small>
         </li>
         <li style="--background:url(./assets/vallejo2copy.jpg);" 
-            onclick="window.location='#test'" 
+            onclick="window.location='#childhood'" 
             class="list-group-item px-sm-4 px-1">
           <p>Early Childhood</p>
           <small>Growing Up Hella Hyphy</small>
         </li>
-        <li style="--background:url(./assets/newspaper-dark.jpg);" 
-            onclick="window.location='#test'" 
-            class="list-group-item px-sm-4 px-1">
-          <p>Good Compenny</p>
-          <small>Building a Dynasty</small>
-        </li>
         <li style="--background:url(./assets/IMG_3806.JPG);" 
-            onclick="window.location='#test'" 
+            onclick="window.location='#sxsw'" 
             class="list-group-item px-sm-4 px-1">
           <p>SXSW</p>
           <small>My Blackness is Not For Sale</small>
         </li>
         <li style="--background:url(./assets/IMG_5380.JPG);" 
-            onclick="window.location='#test'" 
+            onclick="window.location='#pergola'" 
             class="list-group-item px-sm-4 px-1">
           <p>The Pergola</p>
           <small>The Greatest Show on Earth</small>
         </li>
+        <li style="--background:url(./assets/IMG_5363.JPG);" 
+            onclick="window.location='#scrollyteller'" 
+            class="list-group-item px-sm-4 px-1">
+          <p>Good Compenny</p>
+          <small>Building a Dynasty</small>
+        </li>
       </ul>
     </nav>
+
+
+<nav class="navbar navbar-expand-sm sticky-top bg-body-tertiary">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse text-center" id="navbarSupportedContent">
+      <ul class="navbar-nav mx-auto mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
 
     <!-- content section -->
     <article role="main">
@@ -123,7 +149,7 @@
 
 
         <!-- EMPRESS-->
-        <div class="row justify-content-center">
+        <div id="empress" class="row justify-content-center">
           <div class="col-12 col-md-8 col-lg-6">
            <p>The sun covers LaRussell's face as he lies down in his backyard one September afternoon. His eyes are gently closed, his fingers laced behind his head, and blades of grass are poking out between his arms. If I hadn&rsquo;t seen him lie down, I might have thought he was sound asleep. Birds are chirping, a rooster is crowing. There isn&rsquo;t a cloud in the sky. Tietta, LaRussell&rsquo;s social media manager, checks the audio levels as she records our conversation. I&rsquo;m wearing a long black dress, sitting on a tiny black stool underneath a pergola in LaRussell&rsquo;s backyard giving a long winded pitch about a story I want to do on him, and his team &ldquo;Good Compenny.&rdquo;</p>
           <p>&ldquo;Let&rsquo;s do it!&rdquo; LaRussell says without hesitation.&nbsp;</p>
@@ -275,7 +301,7 @@
 
           <figure class="figure">
             <img src="assets/LaRussellEmpress.png" alt="picture of LaRussell on stage" class="img-fluid d-block">
-            <!-- <figcaption class="figure-caption">Here is a caption for this image</figcaption> -->
+            <figcaption class="figure-caption">Here is a caption for this image</figcaption>
           </figure>
 
           <p>People sway and turn to the people they come in contact with, giving them a look like, &ldquo;I see you.&rdquo;</p>
@@ -291,7 +317,7 @@
 
 
         <!-- EARLY CHILDHOOD-->
-      <h2>Early Childhood</h2>
+      <h2 id="childhood" >Early Childhood</h2>
 
         <p>I walk into LaRussell&rsquo;s living room and sit softly on the couch. There&rsquo;s a sleeping baby on the opposite end, wearing a fuzzy red set with pink hearts. Plants are lined up against the floorboards and a picture of LaRussell Thomas with his siblings is under the mantel. In the corner, is a crate for Yvette&rsquo;s two small dogs &mdash; Hennsey and Cognac. To the left, is a hallway covered in long laminated sheets filled with family pictures.&nbsp;</p>
         <p>Yvette&rsquo;s in a rocking chair with her granddaughter on her lap. She turns off the <em>The Price Is Right</em> for our interview and I pull out my journal and pen. She rocks back and forth with her vision split between her granddaughter and the baby.</p>
@@ -363,7 +389,7 @@
 
 
  <!-- SXSW SECTION -->
-          <h2>SXSW</h2>
+          <h2 id="sxsw" >SXSW</h2>
             <p>By 2023, it seemed the whole world was trying to work with LaRussell. He&rsquo;d become the pinnacle of independent success, a hero in Vallejo and had amassed over 700,000 followers on Instagram alone. His growing audience had caught the attention of every major label in the country. On top of that, his performances created a reputation that made everyone want to show up to his shows.&nbsp;</p>
             <p>He had been on the Breakfast Club, had a Times Square billboard, had performed in front of thousands. Bloomberg made a short documentary about him. His song was on ESPN, and his following count was growing by tens of thousands every month. All the while, LaRussell centered his team. He would only agree to do photoshoots if his team could take the photos. So when people saw LaRussell, they saw the work of Jason and Bgiggz. And when they saw the photos they saw Vallejo, where most of his content is taken.</p>
             <p>He was getting more opportunities to collaborate with big companies. As South by Southwest &mdash; a massive tech, film and media conference &mdash; was approaching Intuit, the parent company to TurboTax and Mailchimpe, reached out to collaborate.</p>
@@ -389,7 +415,7 @@
 
           <figure class="figure">
             <img src="assets/IMG_3175.JPG" alt="picture of Soulshine" class="img-fluid d-block">
-            <figcaption class="figure-caption">LaRussell before his Q&A session at SXSW</figcaption>
+            <figcaption class="figure-caption text-center">LaRussell before his Q&A session at SXSW</figcaption>
           </figure>
 
             <p>&ldquo;Oh, so you two are the enemy,&rdquo; he says.</p>
@@ -558,7 +584,7 @@
 
 
 <!-- PEROGLA SECTION -->
-            <h2>The Pergola</h2>
+            <h2 id="pergola" >The Pergola</h2>
             <p>It&rsquo;s the first Sunday of April, the first pergola show of the year, and the last Good Compenny event I&rsquo;m reporting on.&nbsp;</p>
             <p>I hear the sound of crackling bacon and the edge of a spoon scraping over ridges of a tin can as I make my way to the kitchen. LaRussell&rsquo;s parents are both there. Yvette is on the left, laying strips of bacon across a mini grill, and Russell Sr. on the right is pouring nacho cheese sauce into a crockpot.</p>
             <p>Yvette tells her grandchildren to start getting up and ready or to go sleep in her bed. She repeats herself a couple times before going into the living room to warn them more sternly. They both get up and begin to get ready, with the help of Yvette.&nbsp;</p>
@@ -573,7 +599,7 @@
 
               <figure class="figure">
                <img src="assets/IMG_4968.JPG" alt="Person reading a newspaper" class="img-fluid d-block">
-               <!-- <figcaption class="figure-caption">Here is a caption for this image</figcaption> -->
+               <figcaption class="figure-caption">Here is a caption for this image</figcaption>
             </figure>
 
             <p>Doors open at 2pm, and people start filing in a bit early to get good seats. People walk through the back gate with their phones held out as they pass . The bouncy house already has kids shoes lined outside it, sparkly black boots, and small Nikes.&nbsp;</p>
@@ -605,7 +631,7 @@
 
             <figure class="figure">
               <img src="assets/momspurple.png" alt="Person reading a newspaper" class="img-fluid d-block">
-              <!-- <figcaption class="figure-caption">Pops in the kitchen before the first Pergola party</figcaption> -->
+              <figcaption class="figure-caption">Pops in the kitchen before the first Pergola party</figcaption>
             </figure>
             <p>The crowd roared as LaRussell called to his mom, &ldquo;Go mama, go mama go, go mama, go mama go.&rdquo;</p>
             <p>&ldquo;Go fishing, go fishing, go fishing,&rdquo;</p>
@@ -626,131 +652,39 @@
             </figure>
 
 
-
-        <!-- Example of one big image -->
-        <figure class="figure">
-          <img src="assets/reading_1350.jpg" alt="Person reading a newspaper" class="img-fluid d-block">
-          <!-- <figcaption class="figure-caption">Here is a caption for this image</figcaption> -->
-        </figure>
-
-
-
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-8 col-lg-6">
-            <p>Journalistic conventions vary by country. In the United States, journalism is produced by media organizations or by individuals. Bloggers are often, but not always, journalists. The Federal Trade Commission requires that bloggers who write about products received as promotional gifts to disclose that they received the products for free. This is intended to eliminate conflicts of interest and protect consumers.</p>
-            <p>According to Robert McChesney, healthy journalism in a democratic country must provide an opinion of people in power and who wish to be in power, must include a range of opinions and must regard the informational needs of all people.</p>
-          </div>
-        </div>
-
-
-
-        <!-- Example of two images side-by-side -->
-        <div class="row justify-content-center">
-          <div class="col-12 col-sm-6">
-            <figure class="figure">
-              <img src="assets/desk-2.jpg" alt="Picture of a desk" class="img-fluid d-block">
-              <figcaption class="figure-caption">Here is a caption for this image</figcaption>
-            </figure>
-          </div>
-          <div class="col-12 col-sm-6">
-            <figure class="figure">
-              <img src="assets/desk-3.jpg" alt="Picture of a desk" class="img-fluid d-block">
-              <figcaption class="figure-caption">Here is a caption for this image</figcaption>
-            </figure>
-          </div>
-        </div>
-
-
-
-        <div class="row justify-content-center">
-          <div class="col-12 col-md-8 col-lg-6">
-            <p>There are several forms of journalism with diverse audiences. Thus, journalism is said to serve the role of a "fourth estate", acting as a watchdog on the workings of the government. A single publication (such as a newspaper) contains many forms of journalism, each of which may be presented in different formats. Each section of a newspaper, magazine, or website may cater to a different audience.</p>
-            <p>Consequently, this has resulted in arguments to reconsider journalism as a process distributed among many authors, including the socially mediating public, rather than as individual products and articles written by dedicated journalists.</p>
-            <p>Because of these changes, the credibility ratings of news outlets has reached an all-time low. A 2014 study revealed that only 22% of Americans reported a "great deal" or "quite a lot of confidence" in either television news or newspapers.</p>
-          </div>
-        </div>
-
-
-        <!-- Example of a slide show, also called a carousel -->
-        <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="assets/desk-1.jpg" class="d-block w-100" alt="desk">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/desk-2.jpg" class="d-block w-100" alt="desk">
-            </div>
-            <div class="carousel-item">
-              <img src="assets/desk-3.jpg" class="d-block w-100" alt="desk">
-            </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-
-
-
-        <div id="test" class="row justify-content-center mt-4">
-          <div class="col-12 col-md-8 col-lg-6">
-            <p>It's clear now that we didn't do enough to prevent these tools from being used for harm as well. That goes for fake news, foreign interference in elections, and hate speech, as well as developers and data privacy.</p>
-            <p>The phrase was popularized and inaccurately used by Donald Trump during his presidential campaign to discredit what he perceived as negative news coverage of his candidacy and then the presidency.</p>
-            <p>While publications reporting the news to the general public in a standardized fashion only began to appear in the 17th century and later, governments as early as Han dynasty China made use of regularly published news bulletins. These bulletins, however, were intended only for government officials, and thus were not journalistic news publications in the modern sense of the term.</p>
-            <p>Journalism in China before 1910 primarily served the international community. The overthrow of the old imperial regime in 1911 produced a surge in Chinese nationalism, an end to censorship, and a demand for professional, nation-wide journalism.</p>
-            <p>Starting in the 1940s, United States broadcast television channels would air 10-to-15-minute segments of news programming one or two times per evening. The era of live-TV news coverage would begin in the 1960s with the assassination of John F. Kennedy, broadcast and reported to live on a variety of nationally syndicated television channels. During the 60s and 70s, television channels would begin adding regular morning or midday news shows. Starting in 1980 with the establishment of CNN, news channels began providing 24-hour news coverage, a format which persists through today.</p>
-            <p>It's clear now that we didn't do enough to prevent these tools from being used for harm as well. That goes for fake news, foreign interference in elections, and hate speech, as well as developers and data privacy.</p>
-            <p>The phrase was popularized and inaccurately used by Donald Trump during his presidential campaign to discredit what he perceived as negative news coverage of his candidacy and then the presidency.</p>
-            <p>While publications reporting the news to the general public in a standardized fashion only began to appear in the 17th century and later, governments as early as Han dynasty China made use of regularly published news bulletins. These bulletins, however, were intended only for government officials, and thus were not journalistic news publications in the modern sense of the term.</p>
-            <p>Journalism in China before 1910 primarily served the international community. The overthrow of the old imperial regime in 1911 produced a surge in Chinese nationalism, an end to censorship, and a demand for professional, nation-wide journalism.</p>
-            <p>Starting in the 1940s, United States broadcast television channels would air 10-to-15-minute segments of news programming one or two times per evening. The era of live-TV news coverage would begin in the 1960s with the assassination of John F. Kennedy, broadcast and reported to live on a variety of nationally syndicated television channels. During the 60s and 70s, television channels would begin adding regular morning or midday news shows. Starting in 1980 with the establishment of CNN, news channels began providing 24-hour news coverage, a format which persists through today.</p>
-          </div>
-        </div>
-
-
         <!-- Example of Scrollytelly part. -->
-        <div class="scroll-container">
+        <div id="scrollyteller" class="scroll-container">
           
-          <div data-image="assets/desk-1.jpg" data-position="center"> <p> LaRussell spent his middle school afternoons watching rap battles on YouTube and videos of artists like Ryan Leslie and Kanye making beats. He started searching for sound packs, experimenting with different samples and watching tutorials on music production.</p> <p>One day, while LaRussell was on the computer, his sister's boyfriend noticed his interest and introduced him to a program called FL Studio. He taught LaRussell the basics of beat-making, and from that point on, LaRussell began honing his craft.</p></div>
+          <div data-image="./assets/larussellkid.jpg" data-position="center"> <p> LaRussell spent his middle school afternoons watching rap battles on YouTube and videos of artists like Ryan Leslie and Kanye making beats. He started searching for sound packs, experimenting with different samples and watching tutorials on music production.</p> <p>One day, while LaRussell was on the computer, his sister's boyfriend noticed his interest and introduced him to a program called FL Studio. He taught LaRussell the basics of beat-making, and from that point on, LaRussell began honing his craft.</p></div>
 
-          <div data-image="assets/desk-2.jpg" data-position="left"><p>LaRussell began rapping under the name "Tota" or "Tota Shakur" when he started at Jesse Bethel High School in 2008. He started doing rap battles in the bathroom and behind the portable classrooms. After a few battles, no one wanted to challenge him anymore.</p>
+          <div data-image="./assets/rapbattles.mp4" data-position="left"><p>LaRussell began rapping under the name "Tota" or "Tota Shakur" when he started at Jesse Bethel High School in 2008. He started doing rap battles in the bathroom and behind the portable classrooms. After a few battles, no one wanted to challenge him anymore.</p>
           <p>He formed a group with his friends called "MTL," which stood for "More To Life, More To Love, More To Live For." The group made music and also filmed lifestyle blogs. LaRussell's dad had taught him how to burn CDs, and he used this knowledge to release his first mixtape, "MTL."</p>
           </div>
 
           <div data-image="assets/desk-3.jpg" data-position="right"><p>LaRussell transferred to People&rsquo;s High School, a continuation school that LaRussell described as a "pre-juvenile detention center." The shorter days allowed LaRussell more time to invest in himself and his music.</p>
           <p>LaRussell released his second mixtape. Around the same time, LaRussell received news that would change his life forever. At the age of 17, he learned that he was going to be a father.</p></div>
 
-            <div data-image="assets/desk-4.jpg" data-position="center"><p>LaRussell graduated high school in 2012, and shortly after, his daughter was born. He got a job at UPS and continued to work on his music. He asked Chow, who received his mixtape at People's High School, to learn how to engineer for him. Chow joined his team in 2013.<br /><br /></p>
+            <div data-image="assets/LRMEL.JPG" data-position="center"><p>LaRussell graduated high school in 2012, and shortly after, his daughter was born. He got a job at UPS and continued to work on his music. He asked Chow, who received his mixtape at People's High School, to learn how to engineer for him. Chow joined his team in 2013.<br /><br /></p>
             <p>In 2014, LaRussell met Tessie, a singer from Vallejo, and the two began practicing in his garage, creating music together under the name "Best Friends." Later, they transitioned to a new name, "We Are You," and released a couple of music videos.</p></div>
 
-            <div data-image="assets/desk-4.jpg" data-position="center"><p>By the end of 2017, Tessie and LaRussell had a personal dispute and split. LaRussell continued working on his music with Chow. He shared his vision for Good Compenny with his high school friend Milli, who joined the team to help out wherever she was needed.</p>
+            <div data-image="./assets/fieldeffect.jpg" data-position="center"><p>By the end of 2017, Tessie and LaRussell had a personal dispute and split. LaRussell continued working on his music with Chow. He shared his vision for Good Compenny with his high school friend Milli, who joined the team to help out wherever she was needed.</p>
             <p>At the beginning of 2018, LaRussell released his first album, "Field Effect." Afternoons were spent practicing in his garage. During this time, he reconnected with Tessie, and they started making music together again. It was around this time when they began to experiment with analytics and content creation.</p>
             <p>LaRussell threw his first show at the Empress Theatre, with the help of Good Compenny and his family. He saved his earnings, and his dad contributed to the cost. The audience mainly comprised friends, family, and the community that had grown organically around him. Despite it being his first concert, he killed iit. During the show, he announced his second album, "Never Forget Who You Are."</p></div>
 
-            <div data-image="assets/desk-4.jpg" data-position="center"><p>In 2019, LaRussell quit his job to focus entirely on Good Compenny. He started expanding the team, adding artists, videographers and DJs to his team.</p>
-            <p>He started the mixtape series GCU, which featured artists from around the Bay Area and wrote "Field Trip," an album for Tessie, which quickly gained traction. Tessie and LARussell started doing concerts all over California, meeting people and learning about the business of touring.</p>
+            <div data-image="./assets/feeltrip.jpg" data-position="center"><p>In 2019, LaRussell quit his job to focus entirely on Good Compenny. He started expanding the team, adding artists, videographers and DJs to his team.</p>
+            <p>He started the mixtape series GCU, which featured artists from around the Bay Area and wrote "Feel Trip," an album for Tessie, which quickly gained traction. Tessie and LaRussell started doing concerts all over California, meeting people and learning about the business of touring.</p>
             <p>Using the momentum from their albums, Good Compenny continued to put on shows, traveling all over the Bay Area, including Oakland, San Francisco, Berkeley, and San Jose, and shooting content in different Airbnb locations.</p>
             <p>LaRussell and Tessie's content started to go viral. Their cover of "The Way" went viral on Twitter, and LaRussell's video for "What You Done Done," which featured him lying in a field of purple flowers, also gained popularity.</p>
             <p>By the end of 2019, with a larger team and the momentum from "Field Trip," LaRussell and Good Compenny were gearing up for their biggest year yet.</p></div>
 
-           <div data-image="assets/desk-4.jpg" data-position="center"><p>Then COVID hit. ThIn the middle of the year, LaRussell released his first album, "Silence Won't Save You," under his real name. The album was personal, and it felt right to use his given name. Later, he released "Field Effect 2" to round out the end of 2020, which included his viral hit "Do That Little Dance You Be Doing."</p>
+           <div data-image="./assets/fieldeffect4.jpg" data-position="center"><p>Then COVID hit. In the middle of the year, LaRussell released his first album, "Silence Won't Save You," under his real name. The album was personal, and it felt right to use his given name. Later, he released "Field Effect 2" to round out the end of 2020, which included his viral hit "Do That Little Dance You Be Doing."</p>
           <p>In December of 2020, LaRussell started the GC Live Sessions, a series of videos featuring artists performing. During the pandemic, LaRussell spent much of his time making music and recording live sessions whenever possible. He connected with other artists throughout the process and, by the end of 2020, he met Tope, a producer from Portland. He started to feel a resurgence of energy.</p></div>
 
-          <div data-image="assets/desk-4.jpg" data-position="center"><p>LaRussell kicked off 2021 by releasing his 2021 Freestyle, which went viral. In April, he boosted the post to Rap Marathon, and it received an overwhelmingly positive response. This prompted him to start a 30-day run, posting content every single day.</p>
-          <p>This year marked a significant change for LaRussell. Tietta, his social media manager, joined the team, and he began working with Tope to create music. Tope and LaRussell released "Marlin 7" in August of 2021 and before the year ended, LaRussell dropped six more albums. Along the way, Tietta was going all-in on the Good Compenny content and LaRussell&rsquo;s base was beginning to grow in ways it hadn&rsquo;t before.</p>
+          <div data-image="./assets/2021freestyle.jpg" data-position="center"><p>LaRussell kicked off 2021 by releasing his 2021 Freestyle, which went viral. In April, he boosted the post to Rap Marathon, and it received an overwhelmingly positive response. This prompted him to start a 30-day run, posting content every single day.</p>
+          <p>This year marked a significant change for LaRussell. Good Compenny became an official 501 (3)(c) Tietta, his social media manager, joined the team, and he began working with Tope to create music. Tope and LaRussell released "Marlin 7" in August of 2021 and before the year ended, LaRussell dropped six more albums. Along the way, Tietta was going all-in on the Good Compenny content and LaRussell&rsquo;s base was beginning to grow in ways it hadn&rsquo;t before.</p>
           <p>In 2021, LaRussell received his first record deal offer, but turned it down.</p></div>
 
-          <div data-image="assets/desk-4.jpg" data-position="center"><p>The pace that LaRussell set in 2021 continued throughout 2022. He released nine projects and his follower count grew to over 750k on Instagram alone. He appeared on The Breakfast Club. The Pergola was built in his backyard in June of 2022 and hosted his first backyard show. He was invited to Revolt Fest and everyone was asking him about the backyard concerts. His songs "Baggage Claim" and "Again" were on the radio and featured on ESPN. He also added several live musicians to his shows, was touring more, putting out a bunch of merch and other content. LaRussell continued to go viral weekly, if not daily.</p></div>
+          <div data-image="./assets/IMG_5201.JPG" data-position="center"><p>The pace that LaRussell set in 2021 continued throughout 2022. He released nine projects and his follower count grew to over 750k on Instagram alone. He appeared on The Breakfast Club. The Pergola was built in his backyard in June of 2022 and hosted his first backyard show. He was invited to Revolt Fest and everyone was asking him about the backyard concerts. His songs "Baggage Claim" and "Again" were on the radio and featured on ESPN. He also added several live musicians to his shows, was touring more, putting out a bunch of merch and other content. LaRussell continued to go viral weekly, if not daily.</p></div>
 
 
         </div>
@@ -785,7 +719,7 @@
         //https://github.com/wilddeer/stickyfill
         var stickyElements = $('.sticky');
         Stickyfill.add(stickyElements);
-        const carousel = new bootstrap.Carousel('#carouselExampleIndicators2,#carouselExampleIndicators')
+        // const carousel = new bootstrap.Carousel('#carouselExampleIndicators2,#carouselExampleIndicators')
 
 
         $(".scroll-container").scrollSwap({
@@ -795,7 +729,7 @@
             noCSS: false,
             spreadDistance: "75vh",
             backgroundColor: 'rgba(255,255,255,0.85)',
-            width: '50%'
+            width: '70%'
         });
 
 

@@ -6,3 +6,4 @@ document.querySelector(".lyrics").addEventListener("click", () => {
   audio.currentTime = 0; // reset audio to beginning
   audio.play();
 });
+

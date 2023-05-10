@@ -3,7 +3,7 @@
 
 
 #mainheader{
-  font-family: Lato, sans-serif;
+  font-family: 'Permanent Marker', cursive;
   font-weight: 500;
 }
 
@@ -141,6 +141,4 @@ header[role="banner"]{
   clip-path: inset(0% 0% 0% 0%);
   background-size: 130% auto;
 }
-
-
 

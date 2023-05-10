@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+  }
+
+.image-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+img {
+  width: calc(20% - 8px);
+  height: auto;
+  margin-right: 8px;
+}
+
+h1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+audio {
+  display: none;
+}
+
+header{
+  width:300vw;
+  padding-bottom: 10px;
+  align-items: center;
+
+}
+
